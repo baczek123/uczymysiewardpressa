@@ -11,7 +11,7 @@
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<!-- dodanie ściezki do pliku css za pomocą metody get_template_directory_uri
 				najlepiej jednak przenieść to do funkcji niż wielkokrotnie importować style w html -->
-			<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/custom.css"></link-->
+			<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css"></link-->
 			<!-- import całego heada -->
 			<?php wp_head(); ?>
     </head>

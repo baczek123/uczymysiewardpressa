@@ -1,8 +1,23 @@
 .navbar-custom {
+  /* 
+  nie można użyc czego takiego:
+  background-image: url("<?php echo get_template_directory_uri(); ?>/img/background.png");
+  poniewaz w plikach css nie mozna renderować skryptow php 
+  oraz plik plik indexx.css jest juz dodany do projektu
+  */
 
-    background-color: #ff5500;
-    color: yellow;
-    background-image: url(img/background.png);
+  /*  
+  url z bezpośrednim linkiem zadziałałoby w normalnym html'u:
+  background-image: url("img/background.png");
+  w tym przypadku folder css jest dodany juz do projektu wiec wszystko co jest w pliku index.css 
+  prowadzi do lokalizacj:
+  http://localhost:82/wp-content/themes/uczymysiewardpressa/uczymysiewordpressa/css/img/background.png
+  a jak wiadomo folder img nie znajduje się wewnatrz folderu css - leczn an tym samym poziomie
+  */
+  
+  /* mozna wiec to wykorzystać i trochę zmienić link na taki:  */
+  background-image: url("../img/background.png");
+  /* co onzacza - idz do góry jeden stopień i tam wyszukaj folderu img - to jest najłatiwjszy sposób */
 }
 
 .wrap {
