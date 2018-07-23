@@ -1,26 +1,26 @@
 <!doctype html>
 <html>
     <head>
-			<meta charset="UTF-8">
-			<title>uczymysiewardpressa</title>
+		<meta charset="UTF-8">
+		<title>uczymysiewardpressa</title>
 
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-			<!-- dodanie ściezki do pliku css za pomocą metody get_template_directory_uri
-				najlepiej jednak przenieść to do funkcji niż wielkokrotnie importować style w html -->
-			<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css"></link-->
-			<!-- import całego heada -->
-			<?php wp_head(); ?>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<!-- dodanie ściezki do pliku css za pomocą metody get_template_directory_uri
+			najlepiej jednak przenieść to do funkcji niż wielkokrotnie importować style w html -->
+		<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css"></link-->
+		<!-- import całego heada -->
+		<?php wp_head(); ?>
     </head>
     <body>
 			<div class="conteiner">
 				<nav class="navbar navbar-custom">
 					<button class="btn"><i class="fa fa-home"></i></button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="nav nav-pills nav-justified nav-fill">
+					<ul class="nav nav-justified">
 						<li class="nav-item active">
 						<a class="nav-link" href="#">Start <span class="sr-only">(current)</span></a>
 						</li>
