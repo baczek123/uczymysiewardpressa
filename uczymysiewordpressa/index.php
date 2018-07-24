@@ -18,40 +18,22 @@
     <body>
 			<div class="conteiner">
 				<nav class="navbar navbar-custom">
-					<button class="btn"><i class="fa fa-home"></i></button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<!--div class="collapse navbar-collapse" id="navbarSupportedContent"-->
 					<ul class="nav nav-justified">
-						<li class="nav-item active">
-						<a class="nav-link" href="#">Start <span class="sr-only">(current)</span></a>
+						<button class="btn"><i class="fa fa-home"></i></button>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Start <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link" href="#first">O Firmie</a>
+							<a class="nav-link" href="#first">O Firmie</a>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link" href="#secend">Oferta</a>
+							<a class="nav-link" href="#secend">Oferta</a>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link" href="#third">Kontakt</a>
+							<a class="nav-link" href="#third">Kontakt</a>
 						</li>
-						<!--li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-						</li-->
-						<!--li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-						</li-->
 					</ul>
-					<!--form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-					</form-->
 					</div>
 				</nav>
 			</div>

@@ -20,6 +20,21 @@
   /* co onzacza - idz do góry jeden stopień i tam wyszukaj folderu img - to jest najłatiwjszy sposób */
 }
 
+/* usuniecie hovera i focusa */
+ul.nav > li > a:hover,
+ul.nav > li > a:focus,
+ul.nav > li > a:active {
+    background-color: transparent;
+    border-bottom: 2px solid #37cadd;
+    color: #FFFFFF;
+    outline: 0;
+}
+/*
+wszystkie mozliwe fokusy:
+a.active.focus, a.active:focus, a.focus, a:active.focus, a:active:focus, a:focus {
+}
+*/
+
 .wrap {
     position: absolute;
     top: 0;
@@ -27,7 +42,6 @@
     width: 100%;
     z-index: 9999;
 }
-
 
 
 #f1_container {
