@@ -14,6 +14,7 @@
 		<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css"></link-->
 		<!-- import całego heada -->
 		<?php wp_head(); ?>
+
     </head>
     <body>
 			<div class="conteiner">
@@ -49,5 +50,9 @@
 			<img src="IMAG1691_wm.jpg" width="840" height="480">
 			<p id="third">Wbrew ogólnej opinii uważam że Malta nie jest Tanim miejscem do wypoczynku. Można tam tanio dolecieć i znaleźć tani nocleg jednak ceny wyżywienia są dość wysokie. Jeśli chcemy zjeść w restauracji gdzieś w pobliżu atrakcji turystycznej to musimy się liczyć z tym, że cena dania obiadowego będzie wynosiła od 17 euro w górę. Do tego dochodzi jeszcze koszt jakiegoś picia i cena wzrasta do ponad 20 euro dla jednej osoby. Jeśli chcecie trochę zaoszczędzić warto poszukać restauracji z dala od miejsc uczęszczanych przez turystów. Mi udało się znaleźć bardzo miły lokal uczęszczany przez mieszkańców wyspy, gdzie serwowane były potrawy typowo Maltańskie a ceny były na poziomie 8 - 12 euro. Więc warto przejść się po różnych dzielnicach i sprawdzić co oferują lokalne restauracje.  
 			Na Malcie jest jeszcze bardzo dużo atrakcji które zdecydowanie trzeba odwiedzić i zobaczyć. Warto się tam wybrać przynajmniej na cały tydzień żeby docenić tą wyspę. Mam nadzieję ze te kilka wskazówek które tutaj zaprezentowałem pozwolą wam lepiej zaplanować waszą wyprawę.<p>
-    </body>
+	
+		<!-- importowanie skryptów js -->
+		<?php wp_footer(); ?>
+		
+		</body>
 </html>
